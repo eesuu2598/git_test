@@ -1,1 +1,3 @@
 one more line
+def index(request):
+	return HttpResponse('index')
